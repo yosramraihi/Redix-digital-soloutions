@@ -1,0 +1,100 @@
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px 20px; 
+  border-bottom: 2px solid #F0F0F0;
+  position: sticky;  
+  top: 0;  
+  z-index: 1000;  
+  height: 100px;  
+  box-sizing: border-box; 
+}
+
+.logo {
+  display: flex;
+  align-items: center; 
+  cursor: pointer;
+  height: 130%;  
+}
+
+.logo img {
+  max-height: 100%;  
+  object-fit: contain; 
+  width: auto; 
+}
+
+.main-nav {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center; 
+  font-size: 16px; 
+  
+}
+
+.main-nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  margin-left: 20px; 
+  cursor: pointer;
+  transition: color 0.3s ease; 
+}
+
+.main-nav li a {
+  text-decoration: none; 
+  color: #333;  
+  font-family: 'Azonix', sans-serif; 
+}
+
+.main-nav li a:hover {
+  color: #FFD800;  
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-size: inherit; 
+  color: inherit; 
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  transition: color 0.3s ease; 
+  font-family: 'Azonix', sans-serif;  
+}
+
+.nav-btn:hover {
+  color: #FFD800; 
+}
+
+.contact-btn {
+  background-color: #FFD800;
+  color: white;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  align-self: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Azonix', sans-serif;  
+}
+
+.contact-btn:hover {
+  background-color: #FFC107; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+@font-face {
+  font-family: 'Azonix';
+  src: url('../fonts/Azonix.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+

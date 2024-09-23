@@ -1,0 +1,73 @@
+.footer {
+  background-color: #272F66; 
+  color: white;
+  padding: 30px 15px; 
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 20px; 
+}
+
+.footer-logo-img {
+  height: 120px; 
+  margin-right: 15px; 
+}
+
+
+
+.left-angle, .right-angle {
+  font-size: 36px; 
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  margin: 30px 0; 
+}
+
+.contact-item {
+  text-align: center;
+  flex: 1 1 200px; 
+  margin: 10px; 
+}
+
+.footer-icon {
+  color: #FFC107; 
+  margin-bottom: 8px; 
+}
+
+.footer-contact p {
+  margin: 8px 0; 
+}
+
+.footer-nav {
+  margin: 15px 0;
+}
+
+.footer-nav-btn {
+  margin: 0 10px; 
+  color: white;
+  background: none; 
+  border: none; 
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px; 
+  cursor: pointer;
+}
+
+.footer-nav-btn:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  margin-top: 15px; 
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+
